@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: disc.refactor.prototype.kit
-  title: disc-refactor-Prototype-Kit
+  name: Disc.Refactor.Prototype.Kit
+  title: Disc-Refactor-Prototype-Kit
   description: |
     A prototype for the disc refactor project
 
