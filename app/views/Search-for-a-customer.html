@@ -1,0 +1,97 @@
+{% extends "layouts/Customer-management-main.html" %}
+
+{% block content %}
+
+
+{% from "govuk/components/breadcrumbs/macro.njk" import govukBreadcrumbs %}
+
+{{ govukBreadcrumbs({
+  items: [
+    {
+      text: "Home",
+      href: "#"
+    },
+    {
+      text: "Passports, travel and living abroad",
+      href: "#"
+    },
+    {
+      text: "Travel abroad",
+      href: "#"
+    }
+  ]
+}) }}
+
+<p>
+
+<h1 class="govuk-heading-l">
+  Search for a customer
+</h1>
+
+{% from "govuk/components/input/macro.njk" import govukInput %}
+
+{{ govukInput({
+  label: {
+    text: "URN"
+  },
+  classes: "govuk-input--width-20",
+  id: "width-20",
+  name: "width20"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "URN"
+  },
+  classes: "govuk-input--width-20",
+  id: "width-20",
+  name: "width20"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "URN"
+  },
+  classes: "govuk-input--width-20",
+  id: "width-20",
+  name: "width20"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "URN"
+  },
+  classes: "govuk-input--width-20",
+  id: "width-20",
+  name: "width20"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "URN"
+  },
+  classes: "govuk-input--width-20",
+  id: "width-20",
+  name: "width20"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "URN"
+  },
+  classes: "govuk-input--width-20",
+  id: "width-20",
+  name: "width20"
+}) }}
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+ 

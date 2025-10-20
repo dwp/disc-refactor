@@ -4,8 +4,6 @@
   Content page template – {{ serviceName }} – GOV.UK Prototype Kit
 {% endblock %}
 
-{% block beforeContent %}
-{% endblock %}
 
 {% block content %}
 
@@ -13,21 +11,21 @@
     <div class="govuk-grid-column-two-thirds">
 
       <h1 class="govuk-heading-l">
-        Disc Refactor Prototype
+        Disc refactor prototype
       </h1>
 
+{% from "timeline/macro.njk" import dwpTimeline %}
+
+<h1 class="govuk-heading-l">Customer management</h1>
+
       <p>
-        This page is not part of the service or for development. It is just used to link out to other pages.
+        This page is not part of the Disc service or for development. It is just to link to other pages.
       </p>
 
-      <h2 class="govuk-heading-m">
-        Customer management
-      </h2>
- </p>
- 
-      <p class="govuk-body">
-<a href="#" class="govuk-link">1.1 Search customer </a>
-</p>
+      <p>
+       <a href="/Search-for-a-customer">1.1 Search customer
+       </a>
+      </p>
 
     </div>
   </div>
